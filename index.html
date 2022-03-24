@@ -2,57 +2,45 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
-    <title>Emanuel Rouse's Portfolio</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <title>Emanuel Rouse | Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <!-- <img
-        class="logo"
-        src="assets/Emanuel Rouse (160 × 160 px).svg"
-        alt="Emanuel Rouse logo"
-      /> -->
+    <!-- Header -->
+    <header>
         <h1 class="logo">Logo</h1>
+        <!-- navbar -->
         <nav>
-            <ul class="nav__links">
-                <li><a href="#">Home</a></li>
-                <li><a href="./pages/about.html">About</a></li>
-                <li><a href="./pages/projects.html">Projects</a></li>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <a href="./pages/contact.html" class="cta"><button>Contact Me</button></a>
     </header>
-    <!-- <div class="hero-image">
-        <div class="hero-text">
-            Emanuel Rouse</h1>
-            <p>
-                I'm a lifelong learner who loves video games, finance, and solving
-                problems. I have a <em>passion</em> for writting code and an eye for
-                design. Nothing makes me happier than seeing a block of code that I
-                wrote work as intended after completing my research and
-                implementation.
-            </p>
-        </div> -->
-    <div class="hero-image">
-        <div id="about" class="hero-text">
-            <p>
-                Hi, I'm Emanuel. I'm a recent graduate of the Fullstack Boot Camp
-                program at Nucamp. I'm a fan of all things UI/UX.
-            </p>
-        </div>
-        <a href="./pages/contact.html" class="cta"><button>Contact Me</button></a>
-
-    </div>
-    <script src="js/index.js"></script>
+    <!-- Main -->
+    <!-- TODO: LOOK INTO ARIA ROLE ATTRIBUTES -->
+    <main>
+        <!-- Sections -->
+        <section class="about"></section>
+        <section class="works"></section>
+        <section class="contact"></section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <span></span>
+        <ul>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com" target="_blank">Github</a></li>
+            <li><a href="https://linkedIn" target="_blank">LinkedIn</a></li>
+            <li><a href="https://youtube" target="_blank">Youtube</a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
